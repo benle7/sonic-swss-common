@@ -493,6 +493,8 @@ namespace swss {
 #define CFG_SRV6_MY_SID_TABLE_NAME                  "SRV6_MY_SIDS"
 #define CFG_SRV6_MY_LOCATOR_TABLE_NAME              "SRV6_MY_LOCATORS"
 
+#define CFG_TX_ERR_TABLE_NAME              "TX_ERR_CFG"
+
 /***** STATE DATABASE *****/
 
 #define STATE_SWITCH_CAPABILITY_TABLE_NAME          "SWITCH_CAPABILITY"
@@ -589,6 +591,8 @@ namespace swss {
 #define STATE_OPER_VLAN_MEMBER_TABLE_NAME      "OPER_VLAN_MEMBER"
 #define STATE_OPER_FDB_TABLE_NAME              "OPER_FDB"
 #define STATE_OPER_PORT_TABLE_NAME             "OPER_PORT"
+
+#define STATE_TX_ERR_TABLE_NAME "TX_ERR_STATE"
 
 /***** Counter capability tables for Queue and Port ****/
 #define STATE_QUEUE_COUNTER_CAPABILITIES_NAME   "QUEUE_COUNTER_CAPABILITIES"
